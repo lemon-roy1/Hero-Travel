@@ -1,0 +1,112 @@
+header{
+    padding: 20px 100px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo-img{
+    display: flex;
+    gap: 5px;
+    font-size: 30px;
+}
+.logo-img img{
+    width: 80px;
+    height: 60px;
+    padding: 25px;
+}
+.logo-img span{
+    color: #FF5400;
+
+}
+
+.nav-tag{
+    display: flex;
+  align-items: center;
+    
+}
+.nav-tag li{
+    list-style: none; 
+    font-weight: 500;
+    font-size: 2rem; 
+    margin-right: 40px;
+    color: #424247;
+}
+.nav-tag li:hover{
+ color: #FF5400;
+}
+/* banner */
+.background-section {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-image: url('./Images//Group\ 13\ \(1\)\ \(1\).png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+.text1 {
+    width: 50%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    color: white;
+}
+.text1 h1{
+    font-size: 3rem;
+}
+.text1 p{
+    font-size: 25px;
+}
+.text2 {
+    padding: 20px;
+    border-radius: 10px;
+     display: flex;
+     justify-content: space-around;
+     margin-top: 50px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    background-color: #ffffffc7;
+    color: white;
+}
+.text2 input{
+    padding: 10px;
+    border-radius: 5px;
+}
+.popula-tours{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    
+}
+
+.popular-content{
+    width: 30%;
+}
+
+.popular-title{
+    color: #131318;
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
+.popular-despiction{
+    font-size: 20px;
+    color: #131318;
+}
+.img-container{
+    display: grid;
+   
+}
+.img-1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.img-2{
+    grid-row: 3;
+}
