@@ -1,189 +1,223 @@
 body {
-    margin: 0;
-    padding: 0;
-  }
-
-header{
-    padding: 20px 100px;
-}
-nav{
-    display: flex;
-    justify-content: space-between;
-}
-.logo-img{
-    display: flex;
-    gap: 5px;
-    font-size: 30px;
-}
-.logo-img img{
-    width: 80px;
-    height: 60px;
-    padding: 25px;
-}
-.logo-img span{
-    color: #FF5400;
-
+  margin: 0;
+  padding: 0;
 }
 
-.nav-tag{
-    display: flex;
+header {
+  padding: 20px 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  display: flex;
+  gap: 5px;
+  font-size: 30px;
+}
+
+.logo-img img {
+  width: 80px;
+  height: 60px;
+  padding: 25px;
+}
+
+.logo-img span {
+  color: #FF5400;
+
+}
+
+.nav-tag {
+  display: flex;
   align-items: center;
-    
+
 }
-.nav-tag li{
-    list-style: none; 
-    font-weight: 500;
-    font-size: 2rem; 
-    margin-right: 40px;
-    color: #424247;
+
+.nav-tag li {
+  list-style: none;
+  font-weight: 500;
+  font-size: 2rem;
+  margin-right: 40px;
+  color: #424247;
 }
-.nav-tag li:hover{
- color: #FF5400;
+
+.nav-tag li:hover {
+  color: #FF5400;
 }
+
 /* banner */
 .background-section {
-    position: relative;
-    width: 100%;
-    height: 700px;
-    background-image: url('./Images//Group\ 13\ \(1\)\ \(1\).png');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    text-align: center;
+  position: relative;
+  width: 100%;
+  height: 700px;
+  background-image: url('./Images//Group\ 13\ \(1\)\ \(1\).png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
 }
 
 .text1 {
-    width: 50%;
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    color: white;
+  width: 50%;
+  position: absolute;
+  top: 10%;
+  left: 20%;
+  color: white;
 }
-.text1 h1{
-    font-size: 3rem;
+
+.text1 h1 {
+  font-size: 3rem;
 }
-.text1 p{
-    font-size: 25px;
+
+.text1 p {
+  font-size: 25px;
 }
+
 .text2 {
-    padding: 20px;
-    border-radius: 10px;
-     display: flex;
-     justify-content: space-around;
-     margin-top: 50px;
-    width: 50%;
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    background-color: #ffffffc7;
-    color: white;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  width: 50%;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  background-color: #ffffffc7;
+  color: white;
 }
-.text2 input{
-    padding: 10px;
-    border-radius: 5px;
+
+.text2 input {
+  padding: 10px;
+  border-radius: 5px;
 }
+
 /* popular */
 .containers {
-    display: flex;
-    justify-content: space-between;
-    padding: 100px;
-  }
-  .text {
-    flex: 1;
-    padding: 20px;
-  }
-  .image {
-    flex: 1;
-  }
-  .image img {
-    width: 100%;
-   
-    
-  }
- 
+  display: flex;
+  justify-content: space-between;
+  padding: 100px;
+}
+
+.text {
+  flex: 1;
+  padding: 20px;
+}
+
+.image {
+  flex: 1;
+}
+
+.image img {
+  width: 100%;
 
 
-
-
-
-
-
-
-
+}
 
 
 /* image */
 
-  .image-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  
-  }
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.image-container img {
+  margin: 10px;
+
+}
+
+.chosse {
+  display: flex;
+  width: 60%;
+  gap: 50px;
+  margin: 20px auto;
+
+}
+
+.chosse-title1 {
+  padding: 30px;
+}
+
+.chosse-center {
+  display: flex;
+  width: 30%;
+  margin: 20px auto;
+  justify-content: center;
+}
+
+.chosse-title {
+  padding: 20px;
+}
+
+.text{
+  width: 50%;
+
+}
+
+.vedio {
+  width: 50%;
+}
+
+.Newsletter-container{
+  display: flex;
+  width: 100%;
+  margin: 100px;
+  justify-content: center;
+  gap: 5rem;
+}
+hr{
+  width: 50%;
+  margin-left: 10px;
+}
+.Newsletter-text {
+  padding: 40px;
+  width: 50%;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.newsletter-input{
+  gap: 20px;
+}
+.newsletter-input input ,button{
+  width: 50%;
+  padding: 5px;
+  margin: 10px;
+}
+
+
+.Newsletter-video{
+  width: 50%;
+}
+
+.footer-logo-img{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+}
+footer >p{
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
   .image-container img {
-    margin: 10px;
-  
-   
-   
+    flex-direction: column;
+    width: 100%;
   }
 
-
-
-  /* .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin: 20px 0;
-  }
-  .container img{
-    width: 300px;
-  }
-  .middle-image img {
-    display: flex;
-    align-items: center;
-  } */
-  
-  
-  .chosse{
-    display: flex;
-    width: 60%;
-    gap: 50px;
-    margin: 20px auto;
-   
-  }
-  .chosse-title1{
-    padding: 30px;
-  }
-  .chosse-center{
-    display: flex;
-    width: 30%;
-    margin: 20px auto;
-    justify-content: center;
-  }
-  .chosse-title{
-    padding: 20px;
+  .container {
+    flex-direction: column;
   }
 
-
-
-
-
-
-
-
-
-  @media screen and (max-width: 768px) {
-    .image-container img {
-      flex-direction: column;
-      width: 100%;
-    }
-    .container {
-        flex-direction: column;
-      }
-      .text, .image {
-        flex: none;
-        width: 100%;
-      }
+  .text,
+  .image {
+    flex: none;
+    width: 100%;
   }
- 
+}
