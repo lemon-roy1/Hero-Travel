@@ -85,8 +85,11 @@ nav {
   position: absolute;
   top: 50%;
   left: 20%;
-  background-color: #ffffffc7;
-  color: white;
+}
+.input-find{
+  background: #be3434;
+  color: aliceblue;
+  
 }
 
 .text2 input {
